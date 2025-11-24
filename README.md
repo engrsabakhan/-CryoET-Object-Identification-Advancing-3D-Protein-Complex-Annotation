@@ -99,3 +99,12 @@ Install asciitree and zarr
 <i>Stable localization across synthetic volumes</i>
 
 <i>k-d tree refinement significantly improves spatial accuracy</i>
+<b>Submission format</b>
+![image](https://github.com/user-attachments/assets/f33fad58-7d2c-4a6f-9361-39bfa7ce309f)
+***
+##### Kaggle Scores (private and public)
+
+![image](https://github.com/user-attachments/assets/e4d7eb32-bff0-4aca-b640-5c855e3b772b)
+***
+
+
