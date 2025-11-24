@@ -46,7 +46,8 @@ Kaggle Competition:
 https:/**/www.kaggle.com/competitions/czii-cryo-et-object-identification/data
 ***
 <b>📁 Dataset Structure</b>
-<img width="379" height="175" alt="image" src="https://github.com/user-attachments/assets/e329ac28-3cfe-4a04-be54-59dc7ab01c5b" />
+<img width="379" height="175" alt="image" src="https://github.com/user-attachments/assets/f2a77626-9481-4382-9e58-6c8bae934f0e" />
+
 
 ***
 <b>⚙️ Installation</b>
@@ -88,7 +89,7 @@ Install asciitree and zarr
 <i>Non-maximum suppression</i>
 
 <i>Confidence thresholding</i>
-
+***
 <b>📊 Results</b>
 
 <i>High-recall protein complex detection in noisy tomograms</i>
