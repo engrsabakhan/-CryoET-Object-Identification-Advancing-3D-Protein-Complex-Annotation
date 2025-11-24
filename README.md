@@ -1,8 +1,8 @@
-CZII - CryoET Object Identification
+<b>CZII - CryoET Object Identification</b>
 
 Advancing 3D Protein Complex Annotation with Deep Learning
-
-📌 Overview
+***
+<b>📌 Overview</b>
 
 Cryo-electron tomography (Cryo-ET) provides high-resolution 3D visualization of cellular environments, capturing protein complexes in their native molecular context. However, automated particle detection remains challenging due to:
 
