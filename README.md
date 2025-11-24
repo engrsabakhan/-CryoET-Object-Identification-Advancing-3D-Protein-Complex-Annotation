@@ -22,7 +22,7 @@ The dataset includes 3D tomograms with ground-truth particle center annotations 
 
 <b>Scored Particle Types</b>
 
-<b> Easy</b>
+<b> 1.Easy</b>
 
 <i>   Apo-ferritin</i>
 
@@ -30,18 +30,18 @@ The dataset includes 3D tomograms with ground-truth particle center annotations 
 
 <i>   Virus-like particle</i>
 
-<b> Hard </b>
+<b> 2.Hard </b>
 
 <i>   β-galactosidase</i>
 
 <i>   Thyroglobulin</i>
 
-<b>Not Scored</b>
+<b>3.Not Scored</b>
 
 <i>   β-amylase<i>
 ***
 <b>📥 Download Dataset</b>
-
+***
 Kaggle Competition:
 https:/**/www.kaggle.com/competitions/czii-cryo-et-object-identification/data
 
