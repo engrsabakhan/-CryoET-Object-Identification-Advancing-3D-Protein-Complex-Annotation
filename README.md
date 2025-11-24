@@ -6,23 +6,23 @@ Advancing 3D Protein Complex Annotation with Deep Learning
 
 Cryo-electron tomography (Cryo-ET) provides high-resolution 3D visualization of cellular environments, capturing protein complexes in their native molecular context. However, automated particle detection remains challenging due to:
 
-High noise levels
+<b>1</b> High noise levels
 
-Low contrast
+<b>2</b> Low contrast
 
-Missing-wedge artifacts
+<b>3</b> Missing-wedge artifacts
 
-Dense and crowded molecular environments
+<b>4</b> Dense and crowded molecular environments
 
 This project introduces a YOLO-based deep learning pipeline for detecting and localizing protein complexes in Cryo-ET tomograms. Using synthetic Zarr-based datasets, the workflow integrates preprocessing, multi-slice feature extraction, and k-d tree–based refinement to improve localization accuracy.
-
-📂 Dataset Description
+***
+<b>📂 Dataset Description</b>
 
 The dataset includes 3D tomograms with ground-truth particle center annotations for five scored classes.
 
-Scored Particle Types
+<b>Scored Particle Types</b>
 
-Easy
+<b>.</b>Easy
 
 Apo-ferritin
 
@@ -39,24 +39,26 @@ Thyroglobulin
 Not Scored
 
 β-amylase
-
-📥 Download Dataset
+***
+<b>📥 Download Dataset</b>
 
 Kaggle Competition:
 https:/**/www.kaggle.com/competitions/czii-cryo-et-object-identification/data
 
-📁 Dataset Structure
+<b>📁 Dataset Structure</b>
+
 train/
  ├── static/ExperimentRuns/{experiment}/VoxelSpacing10.000/
  │      └── denoised.zarr/
  └── overlay/ExperimentRuns/{experiment}/Picks/
         └── {particle_type}.json
+        
 
 test/
  └── static/ExperimentRuns/{experiment}/VoxelSpacing10.000/
         └── denoised.zarr/
-
-⚙️ Installation
+***
+<b>⚙️ Installation</b>
 Download YOLO (Ultralytics) for Offline Use
 <pre style="background:#272822;color:#f8f8f2;padding:12px;border-radius:6px;overflow:auto;"> <code>!pip download -d ./packages ultralytics !tar cfvz archive.tar.gz ./packages</code></pre>
 Install YOLO Offline
