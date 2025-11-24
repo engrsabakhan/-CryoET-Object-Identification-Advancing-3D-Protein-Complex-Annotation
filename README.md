@@ -22,23 +22,23 @@ The dataset includes 3D tomograms with ground-truth particle center annotations 
 
 <b>Scored Particle Types</b>
 
-<b>.</b>Easy
+<b> Easy</b>
 
-Apo-ferritin
+<i>   Apo-ferritin</i>
 
-Ribosome
+<i>   Ribosome</i>
 
-Virus-like particle
+<i>   Virus-like particle</i>
 
-Hard
+<b> Hard </b>
 
-β-galactosidase
+<i>   β-galactosidase</i>
 
-Thyroglobulin
+<i>   Thyroglobulin</i>
 
-Not Scored
+<b>Not Scored</b>
 
-β-amylase
+<i>   β-amylase<i>
 ***
 <b>📥 Download Dataset</b>
 
