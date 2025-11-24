@@ -41,22 +41,13 @@ The dataset includes 3D tomograms with ground-truth particle center annotations 
 <i>   β-amylase<i>
 ***
 <b>📥 Download Dataset</b>
-***
+
 Kaggle Competition:
 https:/**/www.kaggle.com/competitions/czii-cryo-et-object-identification/data
-
+***
 <b>📁 Dataset Structure</b>
+<img width="379" height="175" alt="image" src="https://github.com/user-attachments/assets/e329ac28-3cfe-4a04-be54-59dc7ab01c5b" />
 
-train/
- ├── static/ExperimentRuns/{experiment}/VoxelSpacing10.000/
- │      └── denoised.zarr/
- └── overlay/ExperimentRuns/{experiment}/Picks/
-        └── {particle_type}.json
-        
-
-test/
- └── static/ExperimentRuns/{experiment}/VoxelSpacing10.000/
-        └── denoised.zarr/
 ***
 <b>⚙️ Installation</b>
 Download YOLO (Ultralytics) for Offline Use
@@ -67,39 +58,41 @@ Install Required Dependencies
 <pre style="background:#272822;color:#f8f8f2;padding:12px;border-radius:6px;overflow:auto;"> <code>!cp -r '/kaggle/input/hengck-czii-cryo-et-01/wheel_file' '/kaggle/working/'</code></pre>
 Install asciitree and zarr
 <pre style="background:#272822;color:#f8f8f2;padding:12px;border-radius:6px;overflow:auto;"> <code>!pip install /kaggle/working/wheel_file/asciitree-0.3.3/asciitree-0.3.3.whl !pip install --no-index --find-links=/kaggle/working/wheel_file zarr</code></pre>
-🏗️ Model Details
+***
+<b>🏗️ Model Details</b>
 
-Architecture: YOLO-based 2.5D/3D-aware detector
+<b>Architecture:</b> YOLO-based 2.5D/3D-aware detector
 
-Training Data: Synthetic Cryo-ET dataset (best_synthetic.pt)
+<b>Training Data:</b> Synthetic Cryo-ET dataset (best_synthetic.pt)
 
-Evaluation Metric: F-β score (β = 4), recall-weighted
+<b>Evaluation Metric:</b> F-β score (β = 4), recall-weighted
 
-Post-Processing: k-d tree refinement, confidence filtering, NMS
+<b>Post-Processing:</b> k-d tree refinement, confidence filtering, NMS
+***
+<b>🔄 Preprocessing & Post-processing</b>
 
-🔄 Preprocessing & Post-processing
-Preprocessing
+<b>Preprocessing</b>
 
-Multi-slice feature extraction
+<i>Multi-slice feature extraction</i>
 
-Intensity normalization
+<i>Intensity normalization</i>
 
-Noise reduction
+<i>Noise reduction</i>
 
-Spatial consistency enhancement
+<i>Spatial consistency enhancement</i>
 
-Post-processing
+<b>Post-processing</b>
 
-k-d tree–based spatial refinement
+<i>k-d tree–based spatial refinement</i>
 
-Non-maximum suppression
+<i>Non-maximum suppression</i>
 
-Confidence thresholding
+<i>Confidence thresholding</i>
 
-📊 Results
+<b>📊 Results</b>
 
-High-recall protein complex detection in noisy tomograms
+<i>High-recall protein complex detection in noisy tomograms</i>
 
-Stable localization across synthetic volumes
+<i>Stable localization across synthetic volumes</i>
 
-k-d tree refinement significantly improves spatial accuracy
+<i>k-d tree refinement significantly improves spatial accuracy</i>
